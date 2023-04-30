@@ -1,0 +1,73 @@
+* {
+  font-family: 'poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+}
+
+.Nav {
+  padding: 30px 30px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  
+}
+
+.HerosImg-Con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 100px;
+}
+
+.Card {
+  position: relative;
+  width: 175px;
+  font-size: 12px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.Card--img {
+  width: 100%;
+  border-radius: 9px;
+  margin-bottom: 9px;
+
+}
+
+.Card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.Card--stats {
+  display: flex;
+  align-items: center;
+}
+
+.Star {
+  height: 14px;
+}
+
+.Card--price {
+  margin-top: auto;
+}
+
+.Card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+
+@media (max-width: 1024px){ 
+  .HerosImg {
+      max-width: 400px;
+    }
+}
